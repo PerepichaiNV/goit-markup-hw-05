@@ -542,7 +542,6 @@ visibility: hidden;
 opacity: 0;
 pointer-events: none;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  
-transition-property: visibility, opacity, pointer-events;
 }
 
    .backdrop.is-open {
@@ -574,6 +573,8 @@ pointer-events: auto;
             position: absolute;
         top: 24px;
         right: 24px;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
         display: flex;
         align-items: center;
