@@ -371,18 +371,18 @@ problem to walk away with the perfect and creative solution. </p>
    <div class="backdrop is-open">
     <div class="modal">
         <button class="close-btn" type="button">
-            <svg class="close-btn-icon" width="24" height="24">
+            <svg class="close-btn-icon" width="8" height="8">
                 <use href="./images/icons.svg#btn-close"></use>
             </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
     <form class="modal-form">
 <div class="modal-container-block">
-    <label class="modal-form-label" for="user-text">Name</label>
+    <label class="modal-form-label" for="user-name">Name</label>
     <div class="modal-form-input-cont">
-        <input class="modal-form-input" required id="user-text" name="user-text" 
+        <input class="modal-form-input" required id="user-name" name="user-name" 
         placeholder="enter your name" title="enter your name" pattern="[a-zA-Zа-яА-Я]+" type="text">
-        <svg  width="18" height="18" class="modal-form-icon">
+        <svg  width="18" height="24" class="modal-form-icon">
             <use href="./images/icons.svg#person"></use>
         </svg>
     </div>
@@ -393,7 +393,7 @@ problem to walk away with the perfect and creative solution. </p>
     <div class="modal-form-input-cont">
         <input class="modal-form-input" required id="user-phone" name="user-phone" 
         placeholder="enter your phone number" title="enter your phone number" pattern="[0-9]+" type="text">
-        <svg  width="18" height="18" class="modal-form-icon">
+        <svg  width="18" height="24" class="modal-form-icon">
             <use href="./images/icons.svg#phone"></use>
         </svg>
     </div>
@@ -415,13 +415,14 @@ problem to walk away with the perfect and creative solution. </p>
 </div>
 
 <div class="modal-form-con-checkbox">
-    <input type="checkbox" class="checkbox visually-hidden" id="user-checkbox">
+    <input type="checkbox" class="checkbox visually-hidden" value="true" name="user-privacy" id="user-privacy">
     <label class="label-checkbox" 
-    for="user-checkbox"><span class="custom-checkbox">
-        <svg width="8" height="10">
+    for="user-privacy"><span class="custom-checkbox">
+        <svg width="10" height="8">
             <use href="./images/icons.svg#cheked"></use>
         </svg>
-    </span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+    </span>I accept the terms and conditions of the <a class="checked-link" href="#">Privacy Policy</a>
+</label>
 </div>
 <button class="send-btn" type="submit">Send</button>
     </form>
