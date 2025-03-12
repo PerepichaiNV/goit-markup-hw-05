@@ -836,25 +836,4 @@ color: rgba(46, 47, 66, 0.4);
         .send-btn:focus  {
         background-color: #404bbf; }
     /* #endregion backdrop*/
-    /*.hero-btn {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4d5ae5;
-        cursor: pointer;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 188px;
-        min-width: 169px;
-        height: 56px;
-        border: none;
-        border-radius: 4px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        
-        .hero-btn:hover,
-        .hero-btn:focus  {
-        background-color: #404bbf; */
+    
