@@ -543,10 +543,11 @@ color: #ffffff;
 
 .form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-form-label {
-    gap: 24px;
+    
     }
 
     .form-input {
@@ -562,6 +563,7 @@ letter-spacing: 0.04em;
 color: #ffffff;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
 border-radius: 4px;
+padding-left: 16px;
 }
 
 .footer-btn {
