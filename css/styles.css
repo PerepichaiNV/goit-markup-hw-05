@@ -5,6 +5,7 @@
     --white:            #ffffff;
     --text-color:       #2e2f42;
     --bg-check:         #404bbf;
+    --text-check:       #8E8F99;
 }
 
 body {
@@ -707,7 +708,6 @@ margin-bottom: 16px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8E8F99;
     margin-bottom: 4px;
 }
 
@@ -765,7 +765,7 @@ transform: translateY(-50%);
     }
 
 .popup-textarea {
-    border: 1px solid rgba(46, 47, 66, 0.4);
+border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 background-color: transparent;
 width: 100%;
