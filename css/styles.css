@@ -709,6 +709,7 @@ margin-bottom: 16px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
+    color: var(--text-check)
 }
 
 
