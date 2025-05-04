@@ -559,12 +559,22 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--white);
 display: flex;
+margin-bottom: 16px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24pxs;
 
 }
+.subscribe-form-label {
+
+}
+
 .buttom-primary {
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: var(--bg-color);
     border-radius: 4px;
@@ -575,28 +585,33 @@ line-height: 150%;
 letter-spacing: 0.04em;
 text-align: center;
 color: var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
-.button-telegramm {
-}
 
 .footer-form-email {
-    border: 1px solid var(--white);
+    border: 1px solid #ffffff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 font-weight: 400;
 font-size: 12px;
-line-height: 200%;
+line-height: 2;
 letter-spacing: 0.04em;
-color: var(--white);
+color: #ffffff;
 background-color: transparent;
 margin-right: 24px;
 padding-left: 16px;
 outline: none;
 
+}
+
+.button-telegramm {
+    margin-left: 16px;
 }
 
 .buttom-primary:hover,
