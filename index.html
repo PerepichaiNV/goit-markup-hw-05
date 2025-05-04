@@ -412,30 +412,27 @@ problem to walk away with the perfect and creative solution. </p>
 </footer>
 
 <!-- modal -->
-<div class="backdrop is-hidden">
+<div class="backdrop">
     <div class="modal">
-        <button class="popup-close">
-            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_901725_79)">
-                  <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_901725_79">
-                    <rect width="8" height="8" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
+        <button type="button" class="popup-close">
+            <svg class="popup-close-icon" width="8" height="8">
+           <use href="./images/icons.svg#close">
+            </use>
+            </svg>
         </button>
-<h4 class="form-title">Leave your contacts and we will call you back</h4>
+        <p class="form-title">Leave your contacts and we will call you back</p>
 
 <form>
-    <label for="form-username" class="popup-label"> Name</label>
+<div class="form-item">
+    <label for="form-username" class="popup-label">Name</label>
     <div class="popup-input-wrapper">
         <svg width="18px" height="24px">
             <use href="./images/icons.svg#person"></use>
         </svg>
         <input type="text" name="form_username" id="form-username" class="popup-input">
     </div>
+</div>
+<div class="form-item">
     <label for="form-phone" class="popup-label">Phone</label>
     <div class="popup-input-wrapper">
         <svg width="18px" height="24px">
@@ -443,17 +440,22 @@ problem to walk away with the perfect and creative solution. </p>
         </svg>
         <input type="text" name="form_userphone" id="form-phone" class="popup-input">
         </div>
-    <label for="form-useremail" class="popup-label">Email</label>
+</div>
+<div class="form-item">
+        <label for="form-useremail" class="popup-label">Email</label>
         <div class="popup-input-wrapper">
             <svg width="18px" height="24px">
                 <use href="./images/icons.svg#email"></use>
             </svg>
             <input type="email" name="form_useremail" id="form-useremail" class="popup-input">
      </div>
+</div>
+     <div class="form-item">
      <label for="form-usercomment" class="popup-label">Comment</label>
     <div class="popup-input-wrapper">
         <textarea name="form_usercomment" id="form-usercomment" class="popup-textarea" placeholder="Text input"></textarea>
         </div>
+</div>
 
 
 
